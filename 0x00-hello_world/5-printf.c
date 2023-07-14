@@ -1,10 +1,9 @@
 #include<stdio.h>
 
-/*The main function
- *calls printf function*/
+/*The main function*/
 
 int main(void)
 {
-	printf("with proper grammar, bu the outcome is a piece of art,\n");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
