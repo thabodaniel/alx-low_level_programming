@@ -8,6 +8,15 @@
 
 int main (void)
 {
-	write(1, "_putchar\n" ,10);
+	char statement[] = "_putchar";
+	int i = 0;
+
+	while (statement[i] != '\0')
+	{
+		_putchar(_putchar[i]);
+		i++;
+	}
+	_putchar('\n');
+
 	return (0);
 }
