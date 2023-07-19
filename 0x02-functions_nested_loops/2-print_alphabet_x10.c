@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 /*print the alphabet
  *ten times
  *return:always 0 Success
