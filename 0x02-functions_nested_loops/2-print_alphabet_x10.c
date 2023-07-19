@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 /*print the alphabet
  *ten times
  *return:always 0 Success
@@ -14,8 +14,8 @@ void print_alphabet_x10(void)
 		for (j = 'a'; j <= 'z'; j++)
 		{
 			_putchar(j);
+			_putchar("\n");
 		}
-		_putchar("\n");
 	}
 }
 
