@@ -5,6 +5,6 @@
 int _putchar (char);
 
 /* print_alphabet */
-void print_alphabet(void)
+void print_alphabet(void);
 
 #endif
