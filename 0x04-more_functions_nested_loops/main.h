@@ -12,4 +12,7 @@ int _isdigit(int c);
 
 /* multiply two integers */
 int mul(int a, int b);
+
+/* print numbers from 0 to 9 */
+void print_numbers(void);
 #endif
