@@ -4,6 +4,9 @@
 /* _putchar */
 int _putchar (char);
 
-/* isupper */
+/* _isupper */
 int _isupper(int c);
+
+/* _isdigit */
+int _isdigit(int c);
 #endif
