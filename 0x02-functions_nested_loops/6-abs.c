@@ -3,17 +3,17 @@
  *_abs computes the absolute value of integer
  *Return the value
  */
-int _abs(int)
+int _abs(int n)
 {
-	int i;
+	int n;
 
-	if (i < 0)
+	if (n < 0)
 	{
-		i * -1;
-		return (i);
+		n * -1;
+		return (n);
 	}
-	else if (i == 0 || i > 0)
+	else if (i == 0 || n > 0)
 	{
-		return (i);
+		return (n);
 	}
 }
