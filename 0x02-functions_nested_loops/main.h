@@ -27,4 +27,7 @@ int print_last_digit(int);
 
 /* prints every minute of the Jack Bauer */
 void jack_bauer(void);
+
+/* print the 9 times table */
+void times_table(void);
 #endif
