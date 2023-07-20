@@ -24,4 +24,7 @@ int _abs(int);
 
 /* return the value of the last digit */
 int print_last_digit(int);
+
+/* prints every minute of the Jack Bauer */
+void jack_bauer(void);
 #endif
