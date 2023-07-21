@@ -27,4 +27,7 @@ void print_line(int n);
 
 /* draw a diagnal line in the terminal */
 void print_diagonal(int n);
+
+/* print a square */
+void print_square(int size);
 #endif
