@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	long long number = 612852475143
+	long long number = 612852475143;
 	long long largest_prime = 1;
 
 	for (long long i = 2; i * i <= number; i++)
