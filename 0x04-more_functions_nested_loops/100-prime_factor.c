@@ -12,7 +12,7 @@ int main(void)
 	int i;
 	long num = 612852475143;
 
-	for (i = (int) sqrt(num); i > 2; c++)
+	for (i = (int) sqrt(num); i >= 2; c--)
 	{
 		if (num % i == 0)
 		{
