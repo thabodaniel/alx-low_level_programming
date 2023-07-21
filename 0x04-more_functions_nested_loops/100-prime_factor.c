@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 /**
  *main - entry point
@@ -8,22 +9,16 @@
  */
 int main(void)
 {
-	long long number = 612852475143;
-	long long largest_prime = 1;
+	int i;
+	long num = 612852475143;
 
-	for (long long i = 2; i * i <= number; i++)
+	for (i = (int) sqrt(num); i > 2; c++)
 	{
-		while (number % i == 0)
-		{	largest_prime = i;
-			number /= i;
+		if (num % i == 0)
+		{
+			printf("%d\n", i);
+			break;
 		}
 	}
-
-	if (number > 1)
-	{
-		largest_prime = number;
-	}
-	printf("%lld\n", largest_prime);
 	return (0);
 }
-
