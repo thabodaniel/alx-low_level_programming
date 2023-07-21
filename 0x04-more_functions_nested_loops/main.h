@@ -24,4 +24,7 @@ void more_numbers(void);
 
 /* draw a straight line in the terminal */
 void print_line(int n);
+
+/* draw a diagnal line in the terminal */
+void print_diagonal(int n);
 #endif
