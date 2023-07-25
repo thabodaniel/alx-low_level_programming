@@ -31,4 +31,7 @@ void puts_half(char *str);
 
 /* print n elements of an array of integers */
 void print_array(int *a, int n);
+
+/* copy string pointed to by src, including the terminating null byte */
+char *_strcpy(char *dest, char *src);
 #endif
