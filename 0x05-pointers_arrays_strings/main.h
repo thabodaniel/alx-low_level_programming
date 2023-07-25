@@ -34,4 +34,7 @@ void print_array(int *a, int n);
 
 /* copy string pointed to by src, including the terminating null byte */
 char *_strcpy(char *dest, char *src);
+
+/* convert a string to integer */
+int _atoi(char *s);
 #endif
