@@ -16,4 +16,7 @@ int _strlen(char *s);
 
 /* print a string followed by new line, to stdout */
 void _puts(char *str);
+
+/* print string in reverse */
+void print_rev(char *s);
 #endif
