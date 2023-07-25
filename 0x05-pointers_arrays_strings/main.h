@@ -25,4 +25,7 @@ void rev_string(char *s);
 
 /* print every char of string starting with 1st letter */
 void puts2(char *str);
+
+/* print half of a string */
+void puts_half(char *str);
 #endif
