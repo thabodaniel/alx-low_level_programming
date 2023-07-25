@@ -22,4 +22,7 @@ void print_rev(char *s);
 
 /* reverse a string */
 void rev_string(char *s);
+
+/* print every char of string starting with 1st letter */
+void puts2(char *str);
 #endif
