@@ -4,20 +4,15 @@
  * rev_string - prints string in reverse
  * @s: char array string type
  */
-
-void rev_string(char *s)
+void print_rev(char *s)
 {
-	int a, b, c;
-	char i;
+	int i;
 
-	for (a = 0; s[a] != '\0'; a++)
+	for (i = 0; s[i] != '\0'; i++)
 		;
 
-	c = a;
-	for (a--, b = 0; b < c / 2; a--, b++)
-	{
-		i = s[b];
-		s[b] = s[a];
-		s[a] = i;
-	}
+	for (i--; i >= 0; i--)
+		_putchar(s[i]);
+
+	_putchar('\n');
 }
