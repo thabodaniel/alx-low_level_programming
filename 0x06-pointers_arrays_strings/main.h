@@ -24,4 +24,7 @@ char *string_toupper(char *);
 
 /* captalize all words of string */
 char *cap_string(char *);
+
+/* encode a string into 1337 */
+char *leet(char *);
 #endif
