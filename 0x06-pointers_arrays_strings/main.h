@@ -20,4 +20,8 @@ void reverse_array(int *a, int n);
 
 /* chnage all lowercase letters of string to uppercase */
 char *string_toupper(char *);
+
+
+/* captalize all words of string */
+char *cap_string(char *);
 #endif
