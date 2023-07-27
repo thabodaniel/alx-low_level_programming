@@ -5,4 +5,7 @@ int _putchar (char);
 
 /* concatenate two strings */
 char *_strcat(char *dest, char *src);
+
+/* concatenate two strings */
+char *_strncat(char *dest, char *src, int n);
 #endif
