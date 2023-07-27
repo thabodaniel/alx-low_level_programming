@@ -11,4 +11,7 @@ char *_strncat(char *dest, char *src, int n);
 
 /* copy a string */
 char *_strncpy(char *dest, char *src, int n);
+
+/* compare two strings */
+int _strcmp(char *s1, char *s2);
 #endif
