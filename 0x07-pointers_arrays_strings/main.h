@@ -23,4 +23,7 @@ char *_strstr(char *haystack, char *needle);
 
 /* print a chessboard */
 void print_chessboard(char (*a)[8]);
+
+/* print the sum of the 2 diagnosis of a square matrix of integers */
+void print_diagsums(int *a, int size);
 #endif
