@@ -26,4 +26,7 @@ void print_chessboard(char (*a)[8]);
 
 /* print the sum of the 2 diagnosis of a square matrix of integers */
 void print_diagsums(int *a, int size);
+
+/* set the value of a pointer to a char */
+void set_string(char **s, char *to);
 #endif
