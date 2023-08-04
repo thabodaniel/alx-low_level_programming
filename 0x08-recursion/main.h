@@ -25,4 +25,7 @@ int _sqrt_recursion(int n);
 
 /* return if the input int is a prime else return 0 */
 int is_prime_number(int n);
+
+/* retunr 1 of a string if palindrome and if not */
+int is_palindrome(char *s);
 #endif
