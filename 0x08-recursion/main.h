@@ -28,4 +28,11 @@ int is_prime_number(int n);
 
 /* retunr 1 of a string if palindrome and if not */
 int is_palindrome(char *s);
+
+/**
+  *compare two strings and return 1 if the strings can be considered
+  *identical, otherwise return 0
+  */
+int wildcmp(char *s1, char *s2);
+
 #endif
